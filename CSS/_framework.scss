@@ -1,0 +1,67 @@
+.container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}
+.main-title{
+    font-size: 4rem;
+    font-weight: 400;
+    color: white;
+}
+.sub-title{
+    font-size: 2rem;
+}
+
+.p {
+    font-size: 2rem;
+    color: white;
+    margin: 2rem 0;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    &:hover{
+        border-bottom: 3px solid #004019;
+    }
+}
+.card{
+    box-shadow: 2px 0px 9px #858585;
+    border-radius: 5px;
+    border: none;
+    
+}
+.btn {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100%;
+}
+i{
+    cursor: pointer;
+}

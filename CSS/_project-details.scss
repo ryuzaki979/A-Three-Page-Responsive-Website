@@ -1,0 +1,49 @@
+.porject-details{
+    padding: 10rem 0;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    animation: animation3 1s .5s linear;
+    
+    position: relative;
+    h2{
+        font-size: 2rem;
+        width: 50%;
+        margin: 2rem  auto 5rem;
+    }
+}
+.flex-items {
+    i{
+        font-size: 5rem;
+        margin: 1rem 0;
+    }
+    p{
+        font-size: 4rem;
+    }
+    h3{
+        color: #047aed;
+        font-size: 2rem;
+    }
+    
+}
+@keyframes animation3 {
+    0%{
+        bottom: -50%;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .porject-details{
+        h2{
+            width: 100%;
+            font-size: 1.7rem;
+        }
+        .flex{
+            flex-direction: column;
+            .flex-items{
+                margin: 2rem 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.home-header{
+    background: #047aed;
+    width: 100%;
+    height: 15vh;
+    color: white;
+}
+.logo{
+    flex: 4;
+    h1 {
+        font-size: 3.5rem;
+        font-weight: 900;
+    }
+}
+.navbar{
+ flex: 1;
+}
+@media only screen and (max-width: 600px){
+    .home-header{
+        .flex{
+            flex-direction: column;
+        }
+    }
+    .navbar{
+        .flex{
+            flex-direction: row;
+            background: #046ed5;
+            padding: 1rem  2rem;
+        }
+    }
+}
